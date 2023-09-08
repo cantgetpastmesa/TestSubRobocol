@@ -1,0 +1,26 @@
+[0.307s] Invoking command in '/home/ubuntu/Documents/TestLatencia/src/aqui': PYTHONPATH=/home/ubuntu/Documents/TestLatencia/build/aqui/prefix_override:/home/ubuntu/Documents/TestLatencia/install/aqui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aqui build --build-base /home/ubuntu/Documents/TestLatencia/build/aqui/build install --record /home/ubuntu/Documents/TestLatencia/build/aqui/install.log --single-version-externally-managed
+[0.415s] running egg_info
+[0.415s] writing ../../build/aqui/aqui.egg-info/PKG-INFO
+[0.415s] writing dependency_links to ../../build/aqui/aqui.egg-info/dependency_links.txt
+[0.415s] writing entry points to ../../build/aqui/aqui.egg-info/entry_points.txt
+[0.415s] writing requirements to ../../build/aqui/aqui.egg-info/requires.txt
+[0.415s] writing top-level names to ../../build/aqui/aqui.egg-info/top_level.txt
+[0.416s] reading manifest file '../../build/aqui/aqui.egg-info/SOURCES.txt'
+[0.416s] writing manifest file '../../build/aqui/aqui.egg-info/SOURCES.txt'
+[0.416s] running build
+[0.416s] running build_py
+[0.416s] copying aqui/TestPub.py -> /home/ubuntu/Documents/TestLatencia/build/aqui/build/lib/aqui
+[0.417s] running install
+[0.417s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.417s]   warnings.warn(
+[0.417s] running install_lib
+[0.417s] copying /home/ubuntu/Documents/TestLatencia/build/aqui/build/lib/aqui/TestPub.py -> /home/ubuntu/Documents/TestLatencia/install/aqui/lib/python3.10/site-packages/aqui
+[0.417s] byte-compiling /home/ubuntu/Documents/TestLatencia/install/aqui/lib/python3.10/site-packages/aqui/TestPub.py to TestPub.cpython-310.pyc
+[0.418s] running install_data
+[0.418s] running install_egg_info
+[0.418s] removing '/home/ubuntu/Documents/TestLatencia/install/aqui/lib/python3.10/site-packages/aqui-0.0.0-py3.10.egg-info' (and everything under it)
+[0.419s] Copying ../../build/aqui/aqui.egg-info to /home/ubuntu/Documents/TestLatencia/install/aqui/lib/python3.10/site-packages/aqui-0.0.0-py3.10.egg-info
+[0.419s] running install_scripts
+[0.429s] Installing TestPub script to /home/ubuntu/Documents/TestLatencia/install/aqui/lib/aqui
+[0.429s] writing list of installed files to '/home/ubuntu/Documents/TestLatencia/build/aqui/install.log'
+[0.444s] Invoked command in '/home/ubuntu/Documents/TestLatencia/src/aqui' returned '0': PYTHONPATH=/home/ubuntu/Documents/TestLatencia/build/aqui/prefix_override:/home/ubuntu/Documents/TestLatencia/install/aqui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aqui build --build-base /home/ubuntu/Documents/TestLatencia/build/aqui/build install --record /home/ubuntu/Documents/TestLatencia/build/aqui/install.log --single-version-externally-managed
